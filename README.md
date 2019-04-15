@@ -16,7 +16,7 @@ pushfirebase("rooms/cbt",'{"hello": "6"}');
 ```
 - Update
 ```
-//pushfirebase(<your-sub-database>,<data-based-json>)
+//updatefirebase(<your-sub-database>,<data-based-json>)
 updatefirebase("rooms/cbt/-LOuqannC6RN9q2vtThR",'{"hello": "hmmm"}');
 ```
 - Get
